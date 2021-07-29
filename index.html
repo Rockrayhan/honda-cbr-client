@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,18 +10,361 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- custom css  -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/d0b034647c.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
+        <!--=============== banner part ============ -->
+
+        <section class=" banner-container w-100 ">
+            <div class="container">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class=" text-light col-lg-6 col-sm-12 mt-5 ">
+                        <p>
+                            <small>Computer-controlled digital transistorized with electronic advance</small>
+                        </p>
+                        <h1 class="fw-bold gold">Honda CBR 300R</h1>
+                        <p>
+                            Honda CBR is always a big name, we are eligible only for this little boy of this CBR series named “Honda CBR 150R”.The Ripsol edition has the glorious history of the World MotoGp Championship. 
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="purchase-button btn" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Purchase
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable text-dark">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLabel"> <span class="gold-text fw-bold">
+                                                25% OFF....!!! </span> </h3>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-center gold-text fw-bold">
+                                        You will get 25% off on your first order <br>
+                                        so hurry up before our offer turns off.......
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn purchase-modal-button">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12 mt-5 ">
+                        <img class="img-fluid w-100" src="images/header-bike.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
     </header>
     <main>
 
+        <!--====== featured bike text ====== -->
+
+        <div class="text-center ">
+            <h1 class="fw-bold">
+                Fetured Bikes 2021
+            </h1>
+            <small class="fw-bold gold-text">Best bike collection</small>
+        </div>
+
+        <!--========== featured bike images ========== -->
+
+        <Section class="container featured-bike-container">
+            <div class="row d-flex justify-content-evenly ms-5 gy-5">
+
+                <div class="col-lg-4 col-sm-12">
+                    <img class="img-fluid" style="width: 290px; height: 245px;" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <img class="img-fluid" style="width: 290px; height: 245px;" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <img class="img-fluid" style="width: 290px; height: 245px;" src="images/feature-bike.jpg" alt="">
+
+                </div>
+            </div>
+        </Section>
+        <!--======= client text ======= -->
+
+        <h1 class="text-center fw-bold">Happy <span class="gold-text">Clients says</span></h1>
+
+        <!-- =========== client cards ============= -->
+
+        <section class="container card-container ">
+            <div class="row gy-5 row-cols-1 row-cols-sm-12  d-flex justify-content-evenly">
+                <div class="col " style="width: 320px; height: 480px;">
+                    <div class="card">
+                        <img src="images/user-1.png" class="card-img-top img-fluid mx-auto mt-5" alt="...">
+                        <div class="card-body text-center">
+
+                            <p class="card-text client-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="star-icon">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+                            </div>
+                            <Br>
+                            <p class="fw-bold text-primary"> <small> Regina Miles </small> </p>
+                            <Br>
+                            <p class="fw-bold "> <small> Banker </small> </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12" style="width: 320px; height: 480px;">
+                    <div class="card">
+                        <img src="images/user-2.png" class="card-img-top img-fluid mx-auto mt-5" alt="...">
+                        <div class="card-body text-center">
+
+                            <p class="card-text client-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="star-icon">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+                            </div>
+                            <Br>
+                            <p class="fw-bold text-primary"> <small> Alex Moxly </small> </p>
+                            <Br>
+                            <p class="fw-bold "> <small> Lawyer </small> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="width: 320px; height: 480px;">
+                    <div class="card">
+                        <img src="images/user-3.jpg" class="card-img-top rounded-circle mx-auto mt-5 img-fluid"
+                            alt="...">
+                        <div class="card-body text-center">
+
+                            <p class="card-text client-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="star-icon">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+                            </div>
+                            <Br>
+                            <p class="fw-bold text-primary"> <small> Motina Betis </small> </p>
+                            <Br>
+                            <p class="fw-bold "> <small> Doctor </small> </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+        <!--============ FAQ text ==========  -->
+        <h1 class="fw-bold text-center">Frequently Asked <span class="gold-text">Questions</span></h1>
+
+        <!--============ FAQ section =============== -->
+
+        <section class="container faq-container">
+
+            <div class="row gy-3">
+                <div class="col-lg-6 col-sm-12">
+                    <img class="img-fluid" src="images/faq.png" alt="" style="width: 430px; height: 420px;">
+                </div>
+                <div class="col-lg-6 col-sm-12 mt-3">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item mb-4">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    What are the most important things I should
+                                    know about riding a bike?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body faded-text">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-4">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    How can I tell if my helmet is old and I need a
+                                    new one?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body faded-text">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving” your bike.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-4">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body faded-text">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of your bike.
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                    What rules should I follow when riding my bike?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFour">
+                                <div class="accordion-body faded-text">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving”. 
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        
+
+        <!--============ upcoming bikes section (enxtra) ============= -->
+
+        <section class="container upcoming-section ">
+
+            <h1 class="text-center fw-bold mb-5 "> <span class="gold-text">upcoming </span>Bikes </h1>
+            <br>
+
+            <div class="d-flex justify-content-center ">
+                <div class="card mb-3" style="max-width: 1080px;">
+                    <div class="row g-5">
+                        <div class="col-md-4 col-sm-12">
+                            <img src="images/upcoming-1.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="card-body">
+                                <h5 class="card-title gold-text fw-bold">Honda CBR Repsol</h5>
+                                <p class="card-text faded-text">The Indonesian HONDA CBR 150R is the fans’ favorite offering from Bangladesh Honda Private Limited. The MotoGP edition comes with the official MotoGP liveries. This bike features a 150 cc segment engine and aggressive approach to its Super Sports styling. With its attractive styling, it snatches the attention of people.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center my-3 ">
+                <div class="card mb-3" style="max-width: 1080px;">
+                    <div class="row g-5">
+                        <div class="col-md-4 col-sm-12">
+                            <img src="images/upcoming-2.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="card-body">
+                                <h5 class="card-title gold-text fw-bold">Honda CBR 2021 Black</h5>
+                                <p class="card-text faded-text">Honda CBR 150R Matte Black is a product of Honda. Its price is Tk 450,000.00. Honda is the brand of Japan. This bike is powered by 149.16 cc engine which generates Maximum power 16.87 BHP @ 9000rpm and its maximum torque is 14.4 Nm @ 7000 rpm. and it burns fuel 45 KM per Liter (approx).
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center ">
+                <div class="card mb-3" style="max-width: 1080px;">
+                    <div class="row g-5">
+                        <div class="col-md-4 col-sm-12">
+                            <img src="images/upcoming-3.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="card-body">
+                                <h5 class="card-title gold-text fw-bold">Honda CBR Deamon</h5>
+                                <p class="card-text faded-text">The bike comes with a dual-channel ABS as an optional variant. The new Honda CBR150R is unlikely to be launched in India as its asking price would be too high for a bike of its category. Instead, Honda is planning to introduce its entire 500cc parallel-twin lineup in 2021, including the Honda CBR500R. 
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--=============== contact us section (extra) ================== -->
+
+        <section
+            class="container d-flex justify-content-center align-items-center rounded-3 text-center contact-section w-100 ">
+            <div class="row">
+                <div class="col col-sm-12">
+                    <div>
+                        <h1 class="gold-text fw-bold">Contact Us</h1> <br>
+                        <p class="fw-bold faded-text">If you Have any quaries, Feel free to contact us. we are waiting for you.</p>
+                        <input class="form-control text-center border-danger" type="text"
+                            placeholder="Enter your email">
+
+                        <br>
+                        <button class=" btn purchase-modal-button">submit</button>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
     </main>
-    <footer>
+    <footer class="text-center mt-5 mb-2 ">
+
+        <small>Honda CBR @ 2021</small>
 
     </footer>
     <!-- js script  -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

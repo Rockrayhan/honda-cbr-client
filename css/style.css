@@ -1,0 +1,101 @@
+/*======= other utilities ======== */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.gold-text {
+    color:#E76F51;
+}
+
+.faded-text {
+    color: #7E848C;
+    font-size: 16px;
+}
+
+/*=========== banner part ======= */
+
+.banner-container {
+    height: 650px;
+    margin-bottom: 64px;
+    overflow-x: hidden;
+    background-color: #264653;
+}
+
+.purchase-button {
+    width: 180px;
+    height: 44px;
+    background-color: #E76F51;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.purchase-modal-button{
+    background-color:#E76F51 ;
+    color: white;
+}
+
+
+
+
+/*============== featured bike part =========== */
+
+.featured-bike-container {
+    margin-top: 120px;
+    margin-bottom: 160px;
+}
+
+
+.featured-bike-container div img:hover {
+ filter: grayscale(100%);
+ cursor: pointer;
+}
+
+/* =========== client card part ========== */
+
+.card-container {
+    margin-top: 52px;
+    margin-bottom: 158px;
+}
+
+.card-container div img {
+    height: 149px;
+    width: 149px;
+    
+}
+
+.client-text {
+    color: #6C6C6C;
+    font-weight: 400;
+}
+
+.star-icon {
+    color: #E76F51;
+}
+
+/* ========= FAQ ======== */
+
+
+.faq-container {
+    margin-top: 112px;
+    height: 490px;
+    
+}
+
+.upcoming-section {
+    margin-top: 200px;
+    
+}
+
+.contact-section {
+    border: 1px solid #E76F51 ;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 300px;
+    
+
+}
